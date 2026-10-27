@@ -10,7 +10,7 @@ $env:Path = "C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\
 Set-Location $PSScriptRoot
 
 $GitHubUser = if ($env:GITHUB_USER) { $env:GITHUB_USER } else { "YOUR_GITHUB_USERNAME" }
-$RepoName   = if ($env:GITHUB_REPO) { $env:GITHUB_REPO } else { "workbuddy-skills-experts" }
+$RepoName   = if ($env:GITHUB_REPO) { $env:GITHUB_REPO } else { "workbuddy-skills-experts" }  # 原名 xiaobai 已废弃
 $Visibility = "private"   # 建议 private；公开改成 public
 
 if ($GitHubUser -eq "YOUR_GITHUB_USERNAME") {
