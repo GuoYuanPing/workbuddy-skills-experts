@@ -1,0 +1,64 @@
+{
+  "name": "lonlat-web3-phishing-guard",
+  "version": "1.0.0",
+  "description": "Web3 phishing and malicious-approval guard with pre-sign checklists and stop-loss steps.",
+  "author": {
+    "name": "Tom",
+    "email": "1623082156@qq.com"
+  },
+  "agents": [
+    "./agents/web3-phishing-guard.md"
+  ],
+  "skills": [
+    "./skills/web3-phishing-approval-guard"
+  ],
+  "expertType": "agent",
+  "agentName": "web3-phishing-guard",
+  "displayName": {
+    "en": "PhishShield",
+    "zh": "防骗盾"
+  },
+  "profession": {
+    "en": "Web3 Phishing and Approval Risk Officer",
+    "zh": "Web3防骗与授权风控官"
+  },
+  "displayDescription": {
+    "en": "Spots phishing sites and malicious approvals with pre-sign checklists and actionable stop-loss guidance.",
+    "zh": "专注Web3钓鱼与假授权识别，提供签名前授权前检查、止损步骤与家庭防骗口令，降低签错风险。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "11-SecurityCompliance",
+  "defaultInitPrompt": {
+    "zh": "请帮我检查这个网站/授权是否像钓鱼，并给出立刻要做的三步",
+    "en": "Please check if this site or approval looks like phishing and give three immediate actions"
+  },
+  "plugin": "lonlat-web3-phishing-guard",
+  "tags": [
+    {
+      "en": "Phishing Defense",
+      "zh": "钓鱼识别"
+    },
+    {
+      "en": "Approval Safety",
+      "zh": "授权安全"
+    },
+    {
+      "en": "Pre-sign Check",
+      "zh": "签名前检查"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "请帮我检查这个网站/授权是否像钓鱼，并给出立刻要做的三步",
+      "en": "Please check if this site or approval looks like phishing and give three immediate actions"
+    },
+    {
+      "zh": "私信让我领空投并无限授权，帮我判断风险并写出拒绝话术",
+      "en": "A DM asks me to claim an airdrop with unlimited approval; judge risk and draft a refusal script"
+    },
+    {
+      "zh": "我已经点过可疑授权，请给出撤权、隔离资产与留证步骤",
+      "en": "I already clicked a suspicious approval; give revoke, asset-isolation and evidence steps"
+    }
+  ]
+}

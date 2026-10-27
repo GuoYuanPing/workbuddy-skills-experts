@@ -1,0 +1,128 @@
+{
+  "name": "lonlat-mainnet-security-team",
+  "version": "1.0.0",
+  "description": "Mainnet launch security team coordinating audit, adversarial Foundry tests and multisig ops for sign-off gates.",
+  "author": {
+    "name": "Tom",
+    "email": "1623082156@qq.com"
+  },
+  "agents": [
+    "./agents/mainnet-security-team-lead.md",
+    "./agents/mainnet-foundry-tester.md",
+    "./agents/mainnet-multisig-operator.md"
+  ],
+  "skills": [
+    "./skills/solidity-security-auditor",
+    "./skills/foundry-dev-assistant",
+    "./skills/multisig-treasury-ops"
+  ],
+  "expertType": "team",
+  "agentName": "mainnet-security-team-lead",
+  "teamInfo": {
+    "leadAgent": "mainnet-security-team-lead",
+    "memberAgents": [
+      "mainnet-foundry-tester",
+      "mainnet-multisig-operator"
+    ]
+  },
+  "displayName": {
+    "en": "Mainnet Launch Security Team",
+    "zh": "合约上线安全专家团"
+  },
+  "profession": {
+    "en": "Mainnet Launch Security Team",
+    "zh": "合约上线安全专家团"
+  },
+  "displayDescription": {
+    "en": "Coordinates pre-mainnet audit, adversarial tests and multisig drills into a sign-off launch gate package.",
+    "zh": "主理统筹合约上线前审计、攻击路径测试与多签权限演练，输出可签字的上线门禁包与残留风险。"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "11-SecurityCompliance",
+  "defaultInitPrompt": {
+    "zh": "我们准备主网上线，请专家团按审计-测试-多签三线给出可签字的上线门禁包",
+    "en": "We are launching on mainnet; please deliver a sign-off launch gate package across audit, testing and multisig lines"
+  },
+  "plugin": "lonlat-mainnet-security-team",
+  "tags": [
+    {
+      "en": "Launch Gate",
+      "zh": "上线门禁"
+    },
+    {
+      "en": "Contract Audit",
+      "zh": "合约审计"
+    },
+    {
+      "en": "Multisig Drill",
+      "zh": "多签演练"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我们准备主网上线，请专家团按审计-测试-多签三线给出可签字的上线门禁包",
+      "en": "We are launching on mainnet; please deliver a sign-off launch gate package across audit, testing and multisig lines"
+    },
+    {
+      "zh": "审计发现High项未修完，请专家团评估能否带风险灰度上线并写残留风险签字页",
+      "en": "High findings are not fully fixed; assess whether a risk-accepted canary launch is acceptable and draft a residual-risk sign-off page"
+    },
+    {
+      "zh": "请把升级权、暂停权、提款权拆到多签，并配Foundry负面测试与监控项",
+      "en": "Split upgrade, pause and withdraw keys into multisig, with Foundry negative tests and monitoring items"
+    }
+  ],
+  "members": [
+    {
+      "id": "mainnet-security-team-lead",
+      "name": {
+        "zh": "审周全",
+        "en": "Shen Zhouquan"
+      },
+      "displayName": {
+        "zh": "审周全",
+        "en": "Shen Zhouquan"
+      },
+      "profession": {
+        "zh": "上线安全主理人",
+        "en": "Launch Security Lead"
+      },
+      "avatar": "avatars/mainnet-security-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "mainnet-foundry-tester",
+      "name": {
+        "zh": "测笃行",
+        "en": "Ce Duxing"
+      },
+      "displayName": {
+        "zh": "测笃行",
+        "en": "Ce Duxing"
+      },
+      "profession": {
+        "zh": "攻击路径测试专家",
+        "en": "Adversarial Testing Specialist"
+      },
+      "avatar": "avatars/mainnet-foundry-tester.png",
+      "role": "member"
+    },
+    {
+      "id": "mainnet-multisig-operator",
+      "name": {
+        "zh": "钥守一",
+        "en": "Yao Shouyi"
+      },
+      "displayName": {
+        "zh": "钥守一",
+        "en": "Yao Shouyi"
+      },
+      "profession": {
+        "zh": "多签金库运维专家",
+        "en": "Multisig Treasury Operator"
+      },
+      "avatar": "avatars/mainnet-multisig-operator.png",
+      "role": "member"
+    }
+  ]
+}

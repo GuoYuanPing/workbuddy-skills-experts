@@ -1,0 +1,65 @@
+{
+  "name": "lonlat-bridge-risk-advisor",
+  "version": "1.0.0",
+  "description": "Cross-chain bridge risk advisor for trust assumptions, large-transfer checklists and double-pay prevention.",
+  "author": {
+    "name": "Tom",
+    "email": "1623082156@qq.com"
+  },
+  "agents": [
+    "./agents/bridge-risk-advisor.md"
+  ],
+  "skills": [
+    "./skills/onchain-address-analyzer",
+    "./skills/crypto-project-dd-checklist"
+  ],
+  "expertType": "agent",
+  "agentName": "bridge-risk-advisor",
+  "displayName": {
+    "en": "BridgeGuard",
+    "zh": "桥卫士"
+  },
+  "profession": {
+    "en": "Cross-chain Bridge Risk Advisor",
+    "zh": "跨链与桥风险顾问"
+  },
+  "displayDescription": {
+    "en": "Evaluates bridge trust assumptions and large cross-chain flows with checklists and double-pay prevention advice.",
+    "zh": "评估跨链桥信任假设与大额跨链流程风险，输出检查清单、失败模式与业务侧防双付对账建议。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "11-SecurityCompliance",
+  "defaultInitPrompt": {
+    "zh": "请评估我们要用的这座桥的信任假设与大额跨链检查清单",
+    "en": "Please assess this bridge trust assumptions and a large-transfer cross-chain checklist"
+  },
+  "plugin": "lonlat-bridge-risk-advisor",
+  "tags": [
+    {
+      "en": "Bridge Risk",
+      "zh": "跨链桥风险"
+    },
+    {
+      "en": "Trust Assumptions",
+      "zh": "信任假设"
+    },
+    {
+      "en": "Large Transfer",
+      "zh": "大额跨链"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "请评估我们要用的这座桥的信任假设与大额跨链检查清单",
+      "en": "Please assess this bridge trust assumptions and a large-transfer cross-chain checklist"
+    },
+    {
+      "zh": "用户跨链超时后系统想自动补偿，请说明双付风险与正确状态机",
+      "en": "After a bridge timeout the system wants auto-compensation; explain double-pay risk and the correct state machine"
+    },
+    {
+      "zh": "请对比官方桥与第三方路由的风险差异，并给出运营侧红线",
+      "en": "Compare official bridge vs third-party router risks and give ops red lines"
+    }
+  ]
+}

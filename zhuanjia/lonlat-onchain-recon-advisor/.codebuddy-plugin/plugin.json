@@ -1,0 +1,64 @@
+{
+  "name": "lonlat-onchain-recon-advisor",
+  "version": "1.0.0",
+  "description": "On-chain investigation advisor for address profiling, approvals, fund-flow hypotheses and deposit reconciliation.",
+  "author": {
+    "name": "Tom",
+    "email": "1623082156@qq.com"
+  },
+  "agents": [
+    "./agents/onchain-recon-advisor.md"
+  ],
+  "skills": [
+    "./skills/onchain-address-analyzer"
+  ],
+  "expertType": "agent",
+  "agentName": "onchain-recon-advisor",
+  "displayName": {
+    "en": "ChainTrace",
+    "zh": "链踪顾问"
+  },
+  "profession": {
+    "en": "On-chain Investigation Advisor",
+    "zh": "链上调查与对账顾问"
+  },
+  "displayDescription": {
+    "en": "Profiles wallets and contracts for approvals, fund-flow hypotheses, fake-deposit risks, and reconciliation monitoring advice.",
+    "zh": "专注钱包与合约地址画像，梳理授权、资金流向假设与假充值风险，并给出充提对账与监控建议。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "11-SecurityCompliance",
+  "defaultInitPrompt": {
+    "zh": "请分析这个地址的授权与资金流向，并给出风险结论与对账建议",
+    "en": "Please analyze this address approvals and fund flows, then give risk conclusions and reconciliation advice"
+  },
+  "plugin": "lonlat-onchain-recon-advisor",
+  "tags": [
+    {
+      "en": "Address Profiling",
+      "zh": "地址画像"
+    },
+    {
+      "en": "Approval Risk",
+      "zh": "授权排查"
+    },
+    {
+      "en": "Reconciliation",
+      "zh": "充提对账"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "请分析这个地址的授权与资金流向，并给出风险结论与对账建议",
+      "en": "Please analyze this address approvals and fund flows, then give risk conclusions and reconciliation advice"
+    },
+    {
+      "zh": "我刚授权了一个陌生合约，帮我判断是否像钓鱼并给出止损步骤",
+      "en": "I just approved an unknown contract; judge phishing risk and give stop-loss steps"
+    },
+    {
+      "zh": "请按 pending-confirmed-posted 状态机帮我设计充提确认与监控",
+      "en": "Design deposit confirmation and monitoring using a pending-confirmed-posted state machine"
+    }
+  ]
+}

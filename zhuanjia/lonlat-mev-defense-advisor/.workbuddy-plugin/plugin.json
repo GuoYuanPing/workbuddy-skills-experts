@@ -1,0 +1,65 @@
+{
+  "name": "lonlat-mev-defense-advisor",
+  "version": "1.0.0",
+  "description": "MEV and sandwich-defense advisor for traders and protocols on routing, slippage and submission path protections.",
+  "author": {
+    "name": "Tom",
+    "email": "1623082156@qq.com"
+  },
+  "agents": [
+    "./agents/mev-defense-advisor.md"
+  ],
+  "skills": [
+    "./skills/lonlat-mev-sandwich-check",
+    "./skills/solidity-gas-optimizer"
+  ],
+  "expertType": "agent",
+  "agentName": "mev-defense-advisor",
+  "displayName": {
+    "en": "AntiClip",
+    "zh": "防夹顾问"
+  },
+  "profession": {
+    "en": "MEV Defense and Routing Advisor",
+    "zh": "交易防夹与MEV顾问"
+  },
+  "displayDescription": {
+    "en": "Diagnoses sandwich/MEV exposure and advises on routing, slippage and submission-path protections.",
+    "zh": "专注交易夹击与MEV防护诊断，给出路由、滑点与发送路径建议，帮助交易者降低被夹损耗。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "zh": "请帮我自查最近交易是否容易被夹击，并给出可执行的防护建议",
+    "en": "Please check whether my recent trades are easy to sandwich and give actionable protection advice"
+  },
+  "plugin": "lonlat-mev-defense-advisor",
+  "tags": [
+    {
+      "en": "MEV Defense",
+      "zh": "MEV防护"
+    },
+    {
+      "en": "Sandwich Risk",
+      "zh": "夹击风险"
+    },
+    {
+      "en": "Trade Routing",
+      "zh": "交易路由"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "请帮我自查最近交易是否容易被夹击，并给出可执行的防护建议",
+      "en": "Please check whether my recent trades are easy to sandwich and give actionable protection advice"
+    },
+    {
+      "zh": "我是协议方，大单兑换常被夹，请从路由与合约交互层面给出防护清单",
+      "en": "We are a protocol and large swaps get sandwiched; give a protection checklist at routing and contract-interaction layers"
+    },
+    {
+      "zh": "请用通俗话解释这笔交易为什么像被三明治攻击，并告诉我下次怎么设置滑点",
+      "en": "Explain in plain language why this trade looks sandwiched and how I should set slippage next time"
+    }
+  ]
+}

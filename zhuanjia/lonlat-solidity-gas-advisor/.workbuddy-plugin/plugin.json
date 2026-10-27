@@ -1,0 +1,64 @@
+{
+  "name": "lonlat-solidity-gas-advisor",
+  "version": "1.0.0",
+  "description": "Solidity gas and performance advisor prioritizing readable safety with actionable rewrite guidance.",
+  "author": {
+    "name": "Tom",
+    "email": "1623082156@qq.com"
+  },
+  "agents": [
+    "./agents/solidity-gas-advisor.md"
+  ],
+  "skills": [
+    "./skills/solidity-gas-optimizer"
+  ],
+  "expertType": "agent",
+  "agentName": "solidity-gas-advisor",
+  "displayName": {
+    "en": "GasSmith",
+    "zh": "Gas匠"
+  },
+  "profession": {
+    "en": "Solidity Gas and Performance Advisor",
+    "zh": "合约Gas与性能顾问"
+  },
+  "displayDescription": {
+    "en": "Finds Solidity gas hotspots and proposes safe readable rewrites with regression and snapshot reminders.",
+    "zh": "定位Solidity高Gas写法，给出安全优先的改写建议，并附回归测试与snapshot验证提醒。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "zh": "请优化这段合约的Gas热点，并给出前后对比与测试提醒",
+    "en": "Please optimize gas hotspots in this contract with before-after notes and test reminders"
+  },
+  "plugin": "lonlat-solidity-gas-advisor",
+  "tags": [
+    {
+      "en": "Gas Optimization",
+      "zh": "Gas优化"
+    },
+    {
+      "en": "Storage Packing",
+      "zh": "存储打包"
+    },
+    {
+      "en": "Hot Path",
+      "zh": "热路径优化"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "请优化这段合约的Gas热点，并给出前后对比与测试提醒",
+      "en": "Please optimize gas hotspots in this contract with before-after notes and test reminders"
+    },
+    {
+      "zh": "deposit循环反复读storage，请给出缓存改写与风险说明",
+      "en": "deposit loops repeatedly read storage; propose a caching rewrite and risk notes"
+    },
+    {
+      "zh": "请解读我的forge gas report，标出前五个最值得改的点",
+      "en": "Interpret my forge gas report and mark the top five highest-ROI changes"
+    }
+  ]
+}

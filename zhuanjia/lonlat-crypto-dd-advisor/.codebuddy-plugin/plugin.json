@@ -1,0 +1,64 @@
+{
+  "name": "lonlat-crypto-dd-advisor",
+  "version": "1.0.0",
+  "description": "Crypto project diligence advisor producing one-page checklists, red flags and evidence gaps.",
+  "author": {
+    "name": "Tom",
+    "email": "1623082156@qq.com"
+  },
+  "agents": [
+    "./agents/crypto-dd-advisor.md"
+  ],
+  "skills": [
+    "./skills/crypto-project-dd-checklist"
+  ],
+  "expertType": "agent",
+  "agentName": "crypto-dd-advisor",
+  "displayName": {
+    "en": "DueDil LonLat",
+    "zh": "尽调经纬"
+  },
+  "profession": {
+    "en": "Crypto Project Diligence Advisor",
+    "zh": "加密项目尽调顾问"
+  },
+  "displayDescription": {
+    "en": "Delivers crypto project one-pagers covering team, token, contracts, peers and red-flag veto items.",
+    "zh": "按团队、代币、合约、竞品与红线输出加密项目尽调一页纸，标出一票否决项与待验证材料清单。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "08-FinanceInvestment",
+  "defaultInitPrompt": {
+    "zh": "请对这个加密项目做尽调一页纸，标出红线与待补充材料",
+    "en": "Please produce a one-page diligence memo for this crypto project with red flags and missing materials"
+  },
+  "plugin": "lonlat-crypto-dd-advisor",
+  "tags": [
+    {
+      "en": "Project Diligence",
+      "zh": "项目尽调"
+    },
+    {
+      "en": "Red Flags",
+      "zh": "红线筛查"
+    },
+    {
+      "en": "BD Screening",
+      "zh": "BD初筛"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "请对这个加密项目做尽调一页纸，标出红线与待补充材料",
+      "en": "Please produce a one-page diligence memo for this crypto project with red flags and missing materials"
+    },
+    {
+      "zh": "我们想合作该协议，请按八维清单打分并给出是否继续接触的建议",
+      "en": "We may partner with this protocol; score the eight diligence dimensions and advise go or no-go"
+    },
+    {
+      "zh": "请列出这个项目最可能的一票否决项，并说明要向对方索取哪些材料",
+      "en": "List the most likely veto items and what materials to request from the team"
+    }
+  ]
+}

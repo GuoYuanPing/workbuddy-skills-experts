@@ -1,0 +1,128 @@
+{
+  "name": "lonlat-web3-dd-research-team",
+  "version": "1.0.0",
+  "description": "Web3 diligence research team combining project DD, tokenomics breakdown and on-chain traction verification.",
+  "author": {
+    "name": "Tom",
+    "email": "1623082156@qq.com"
+  },
+  "agents": [
+    "./agents/web3-dd-research-team-lead.md",
+    "./agents/web3-tokenomics-analyst.md",
+    "./agents/web3-onchain-analyst.md"
+  ],
+  "skills": [
+    "./skills/crypto-project-dd-checklist",
+    "./skills/defi-tokenomics-research",
+    "./skills/onchain-address-analyzer"
+  ],
+  "expertType": "team",
+  "agentName": "web3-dd-research-team-lead",
+  "teamInfo": {
+    "leadAgent": "web3-dd-research-team-lead",
+    "memberAgents": [
+      "web3-tokenomics-analyst",
+      "web3-onchain-analyst"
+    ]
+  },
+  "displayName": {
+    "en": "Web3 Diligence Research Team",
+    "zh": "Web3投研尽调专家团"
+  },
+  "profession": {
+    "en": "Web3 Diligence Research Team",
+    "zh": "Web3投研尽调专家团"
+  },
+  "displayDescription": {
+    "en": "Combines project diligence, tokenomics breakdown and on-chain traction checks into a decision-ready diligence pack.",
+    "zh": "主理统筹项目尽调、Tokenomics拆解与链上牵引核验，输出可决策的尽调包与一票否决项。"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "08-FinanceInvestment",
+  "defaultInitPrompt": {
+    "zh": "请专家团对目标项目做完整尽调：机制代币、链上牵引与红线，给出是否继续接触的结论",
+    "en": "Please run full diligence on the target: mechanism and token, on-chain traction and red flags, with a go or no-go conclusion"
+  },
+  "plugin": "lonlat-web3-dd-research-team",
+  "tags": [
+    {
+      "en": "Project Diligence",
+      "zh": "项目尽调"
+    },
+    {
+      "en": "Tokenomics",
+      "zh": "代币经济"
+    },
+    {
+      "en": "On-chain Traction",
+      "zh": "链上牵引"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "请专家团对目标项目做完整尽调：机制代币、链上牵引与红线，给出是否继续接触的结论",
+      "en": "Please run full diligence on the target: mechanism and token, on-chain traction and red flags, with a go or no-go conclusion"
+    },
+    {
+      "zh": "团队融资叙事很强，请专家团只基于可验证材料做一票否决筛查",
+      "en": "The fundraising narrative is strong; run a veto-only screen based on verifiable materials"
+    },
+    {
+      "zh": "请核对TVL与代币解锁是否匹配真实链上持仓与即将解锁抛压",
+      "en": "Cross-check whether claimed TVL and unlocks match real on-chain holdings and near-term overhang"
+    }
+  ],
+  "members": [
+    {
+      "id": "web3-dd-research-team-lead",
+      "name": {
+        "zh": "调明察",
+        "en": "Diao Mingcha"
+      },
+      "displayName": {
+        "zh": "调明察",
+        "en": "Diao Mingcha"
+      },
+      "profession": {
+        "zh": "投研尽调主理人",
+        "en": "Diligence Research Lead"
+      },
+      "avatar": "avatars/web3-dd-research-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "web3-tokenomics-analyst",
+      "name": {
+        "zh": "研拆解",
+        "en": "Yan Chaijie"
+      },
+      "displayName": {
+        "zh": "研拆解",
+        "en": "Yan Chaijie"
+      },
+      "profession": {
+        "zh": "Tokenomics分析师",
+        "en": "Tokenomics Analyst"
+      },
+      "avatar": "avatars/web3-tokenomics-analyst.png",
+      "role": "member"
+    },
+    {
+      "id": "web3-onchain-analyst",
+      "name": {
+        "zh": "链见微",
+        "en": "Lian Jianwei"
+      },
+      "displayName": {
+        "zh": "链见微",
+        "en": "Lian Jianwei"
+      },
+      "profession": {
+        "zh": "链上牵引分析师",
+        "en": "On-chain Traction Analyst"
+      },
+      "avatar": "avatars/web3-onchain-analyst.png",
+      "role": "member"
+    }
+  ]
+}

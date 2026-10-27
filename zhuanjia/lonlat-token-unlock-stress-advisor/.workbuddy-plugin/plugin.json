@@ -1,0 +1,65 @@
+{
+  "name": "lonlat-token-unlock-stress-advisor",
+  "version": "1.0.0",
+  "description": "Token unlock sell-pressure stress-testing advisor for pre-TGE crash-risk windows and parameter tweaks.",
+  "author": {
+    "name": "Tom",
+    "email": "1623082156@qq.com"
+  },
+  "agents": [
+    "./agents/token-unlock-stress-advisor.md"
+  ],
+  "skills": [
+    "./skills/lonlat-unlock-crash-check",
+    "./skills/defi-tokenomics-research"
+  ],
+  "expertType": "agent",
+  "agentName": "token-unlock-stress-advisor",
+  "displayName": {
+    "en": "UnlockGuard",
+    "zh": "防砸盘顾问"
+  },
+  "profession": {
+    "en": "Token Unlock Stress-Test Advisor",
+    "zh": "代币解锁防砸盘顾问"
+  },
+  "displayDescription": {
+    "en": "Stress-tests unlock schedules for sell-pressure peaks and suggests parameter tweaks before launch.",
+    "zh": "专注代币解锁与抛压情景压测，标出危险窗口与参数调整建议，帮助项目上线前做防砸盘自检。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "08-FinanceInvestment",
+  "defaultInitPrompt": {
+    "zh": "请根据我们的分配与解锁表，做未来12个月抛压压测并标出危险月",
+    "en": "Please stress-test our allocation and unlock schedule for the next 12 months and mark risky months"
+  },
+  "plugin": "lonlat-token-unlock-stress-advisor",
+  "tags": [
+    {
+      "en": "Unlock Stress",
+      "zh": "解锁压测"
+    },
+    {
+      "en": "Sell Pressure",
+      "zh": "抛压分析"
+    },
+    {
+      "en": "Pre-TGE Check",
+      "zh": "上线前自检"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "请根据我们的分配与解锁表，做未来12个月抛压压测并标出危险月",
+      "en": "Please stress-test our allocation and unlock schedule for the next 12 months and mark risky months"
+    },
+    {
+      "zh": "我们FDV很高、初始流通很低，请评估砸盘风险并给出解锁参数调整建议",
+      "en": "Our FDV is high and initial float is low; assess crash risk and suggest unlock parameter changes"
+    },
+    {
+      "zh": "请对比基准与偏悲观两种情景，列出未来四个最危险的解锁窗口",
+      "en": "Compare base and bearish scenarios and list the four riskiest unlock windows ahead"
+    }
+  ]
+}

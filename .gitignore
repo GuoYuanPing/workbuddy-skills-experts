@@ -1,0 +1,23 @@
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.tmp
+*.log
+.vscode/
+.idea/
+
+# Local secrets — never commit
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+**/secrets/
+
+# Python cache from build helpers
+__pycache__/
+*.pyc
+
+# Optional: uncomment if you only want source folders, not ZIPs
+# *.zip

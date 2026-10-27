@@ -1,0 +1,65 @@
+{
+  "name": "lonlat-rwa-stablecoin-advisor",
+  "version": "1.0.0",
+  "description": "RWA and stablecoin risk advisor for reserves, redemption, custody disclosure and stress scenarios.",
+  "author": {
+    "name": "Tom",
+    "email": "1623082156@qq.com"
+  },
+  "agents": [
+    "./agents/rwa-stablecoin-advisor.md"
+  ],
+  "skills": [
+    "./skills/defi-tokenomics-research",
+    "./skills/crypto-project-dd-checklist"
+  ],
+  "expertType": "agent",
+  "agentName": "rwa-stablecoin-advisor",
+  "displayName": {
+    "en": "AnchorRisk",
+    "zh": "锚定风控"
+  },
+  "profession": {
+    "en": "RWA and Stablecoin Risk Advisor",
+    "zh": "RWA与稳定币风险顾问"
+  },
+  "displayDescription": {
+    "en": "Focuses on stablecoin and RWA reserve, redemption, custody and disclosure risks with diligence questions and monitors.",
+    "zh": "聚焦稳定币与RWA的储备、赎回、托管与披露风险，输出尽调问题单、情景压力与监控指标建议。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "08-FinanceInvestment",
+  "defaultInitPrompt": {
+    "zh": "请评估这个稳定币/RWA项目的储备赎回与披露风险，并给监控清单",
+    "en": "Please assess reserve, redemption and disclosure risks for this stablecoin or RWA project with a monitoring list"
+  },
+  "plugin": "lonlat-rwa-stablecoin-advisor",
+  "tags": [
+    {
+      "en": "Stablecoin Risk",
+      "zh": "稳定币风险"
+    },
+    {
+      "en": "RWA Custody",
+      "zh": "RWA托管"
+    },
+    {
+      "en": "Reserve Disclosure",
+      "zh": "储备披露"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "请评估这个稳定币/RWA项目的储备赎回与披露风险，并给监控清单",
+      "en": "Please assess reserve, redemption and disclosure risks for this stablecoin or RWA project with a monitoring list"
+    },
+    {
+      "zh": "请列出该稳定币脱锚时的用户退出路径与协议侧应急动作",
+      "en": "List user exit paths and protocol emergency actions if this stablecoin depegs"
+    },
+    {
+      "zh": "请按尽调视角审查其托管与审计披露缺口，并给一票否决项",
+      "en": "Review custody and audit disclosure gaps from a diligence view and list veto items"
+    }
+  ]
+}

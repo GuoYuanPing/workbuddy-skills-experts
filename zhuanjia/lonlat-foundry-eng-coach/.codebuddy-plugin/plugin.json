@@ -1,0 +1,64 @@
+{
+  "name": "lonlat-foundry-eng-coach",
+  "version": "1.0.0",
+  "description": "Foundry and Solidity engineering coach for invariant tests, negative cases, forks and deploy scripts.",
+  "author": {
+    "name": "Tom",
+    "email": "1623082156@qq.com"
+  },
+  "agents": [
+    "./agents/foundry-engineering-coach.md"
+  ],
+  "skills": [
+    "./skills/foundry-dev-assistant"
+  ],
+  "expertType": "agent",
+  "agentName": "foundry-engineering-coach",
+  "displayName": {
+    "en": "ForgeCoach",
+    "zh": "Forge教练"
+  },
+  "profession": {
+    "en": "Foundry Engineering Coach",
+    "zh": "Solidity与Foundry工程教练"
+  },
+  "displayDescription": {
+    "en": "Coaches Foundry/Solidity engineering with invariant tests, negative cases, fork debugging and permissioned deploy scripts.",
+    "zh": "辅导Foundry与Solidity工程，聚焦不变量、负面测试与分叉调试，强调攻击路径覆盖。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "zh": "请为这段合约补Foundry负面测试与不变量，并给出可运行命令",
+    "en": "Please add Foundry negative tests and invariants for this contract, with runnable commands"
+  },
+  "plugin": "lonlat-foundry-eng-coach",
+  "tags": [
+    {
+      "en": "Foundry",
+      "zh": "Foundry测试"
+    },
+    {
+      "en": "Invariant Tests",
+      "zh": "不变量测试"
+    },
+    {
+      "en": "Solidity Engineering",
+      "zh": "合约工程"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "请为这段合约补Foundry负面测试与不变量，并给出可运行命令",
+      "en": "Please add Foundry negative tests and invariants for this contract, with runnable commands"
+    },
+    {
+      "zh": "帮我设计Vault提现的重入负面测试，并说明断言要点",
+      "en": "Design a withdraw reentrancy negative test for a Vault and explain assertion points"
+    },
+    {
+      "zh": "请给一个一天内可完成的Foundry最小工程闭环练习计划",
+      "en": "Give a one-day Foundry minimal engineering closed-loop practice plan"
+    }
+  ]
+}

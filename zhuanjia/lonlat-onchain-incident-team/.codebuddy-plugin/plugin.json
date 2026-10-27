@@ -1,0 +1,128 @@
+{
+  "name": "lonlat-onchain-incident-team",
+  "version": "1.0.0",
+  "description": "On-chain security incident team for stop-loss, phishing triage, fund-flow hypotheses and contract exposure review.",
+  "author": {
+    "name": "Tom",
+    "email": "1623082156@qq.com"
+  },
+  "agents": [
+    "./agents/onchain-incident-team-lead.md",
+    "./agents/incident-phishing-officer.md",
+    "./agents/incident-contract-auditor.md"
+  ],
+  "skills": [
+    "./skills/onchain-address-analyzer",
+    "./skills/web3-phishing-approval-guard",
+    "./skills/solidity-security-auditor"
+  ],
+  "expertType": "team",
+  "agentName": "onchain-incident-team-lead",
+  "teamInfo": {
+    "leadAgent": "onchain-incident-team-lead",
+    "memberAgents": [
+      "incident-phishing-officer",
+      "incident-contract-auditor"
+    ]
+  },
+  "displayName": {
+    "en": "On-chain Security Incident Team",
+    "zh": "链上安全应急专家团"
+  },
+  "profession": {
+    "en": "On-chain Security Incident Team",
+    "zh": "链上安全应急专家团"
+  },
+  "displayDescription": {
+    "en": "Coordinates stop-loss isolation, phishing triage and contract exposure review into an hour-scale incident action list.",
+    "zh": "主理统筹疑似被盗与钓鱼应急：止损隔离、链上溯源假设与合约暴露面复核，输出小时级行动清单。"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "11-SecurityCompliance",
+  "defaultInitPrompt": {
+    "zh": "疑似被盗或钓鱼，请专家团按止损-溯源-暴露面三线给出接下来两小时行动清单",
+    "en": "Suspected theft or phishing; please give a next-two-hours action list across stop-loss, tracing and exposure review"
+  },
+  "plugin": "lonlat-onchain-incident-team",
+  "tags": [
+    {
+      "en": "Incident Response",
+      "zh": "安全应急"
+    },
+    {
+      "en": "Phishing Triage",
+      "zh": "钓鱼研判"
+    },
+    {
+      "en": "Fund-flow Trace",
+      "zh": "资金溯源"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "疑似被盗或钓鱼，请专家团按止损-溯源-暴露面三线给出接下来两小时行动清单",
+      "en": "Suspected theft or phishing; please give a next-two-hours action list across stop-loss, tracing and exposure review"
+    },
+    {
+      "zh": "我已授权可疑合约，请专家团判断还能撤什么、资产怎么隔离、需要保留哪些证据",
+      "en": "I approved a suspicious contract; judge what can still be revoked, how to isolate assets, and what evidence to keep"
+    },
+    {
+      "zh": "项目金库异常出账，请并行做链上时间线与合约权限/升级暴露面复核",
+      "en": "Treasury saw abnormal outflows; in parallel build an on-chain timeline and review permission or upgrade exposure"
+    }
+  ],
+  "members": [
+    {
+      "id": "onchain-incident-team-lead",
+      "name": {
+        "zh": "溯安然",
+        "en": "Su Anran"
+      },
+      "displayName": {
+        "zh": "溯安然",
+        "en": "Su Anran"
+      },
+      "profession": {
+        "zh": "应急响应主理人",
+        "en": "Incident Response Lead"
+      },
+      "avatar": "avatars/onchain-incident-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "incident-phishing-officer",
+      "name": {
+        "zh": "盾守信",
+        "en": "Dun Shouxin"
+      },
+      "displayName": {
+        "zh": "盾守信",
+        "en": "Dun Shouxin"
+      },
+      "profession": {
+        "zh": "防骗研判官",
+        "en": "Phishing Triage Officer"
+      },
+      "avatar": "avatars/incident-phishing-officer.png",
+      "role": "member"
+    },
+    {
+      "id": "incident-contract-auditor",
+      "name": {
+        "zh": "审破局",
+        "en": "Shen Poju"
+      },
+      "displayName": {
+        "zh": "审破局",
+        "en": "Shen Poju"
+      },
+      "profession": {
+        "zh": "应急合约审计官",
+        "en": "Emergency Contract Auditor"
+      },
+      "avatar": "avatars/incident-contract-auditor.png",
+      "role": "member"
+    }
+  ]
+}

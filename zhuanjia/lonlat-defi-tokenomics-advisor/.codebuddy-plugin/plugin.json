@@ -1,0 +1,64 @@
+{
+  "name": "lonlat-defi-tokenomics-advisor",
+  "version": "1.0.0",
+  "description": "DeFi and tokenomics research advisor producing diligence-grade mechanism, unlock and risk-parameter reports.",
+  "author": {
+    "name": "Tom",
+    "email": "1623082156@qq.com"
+  },
+  "agents": [
+    "./agents/defi-tokenomics-advisor.md"
+  ],
+  "skills": [
+    "./skills/defi-tokenomics-research"
+  ],
+  "expertType": "agent",
+  "agentName": "defi-tokenomics-advisor",
+  "displayName": {
+    "en": "TokenMemo",
+    "zh": "研报经纬"
+  },
+  "profession": {
+    "en": "DeFi Tokenomics Advisor",
+    "zh": "DeFi与Tokenomics投研顾问"
+  },
+  "displayDescription": {
+    "en": "Breaks down DeFi mechanisms and tokenomics, unlock overhang, risk parameters and dependency graphs into diligence-grade memos.",
+    "zh": "拆解DeFi机制与Tokenomics，评估解锁抛压、风险参数与依赖图，输出尽调研报框架与监控清单。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "08-FinanceInvestment",
+  "defaultInitPrompt": {
+    "zh": "请对这个协议做Tokenomics尽调，输出机制、解锁抛压、风险与监控清单",
+    "en": "Please diligence this protocol tokenomics and output mechanism, unlock overhang, risks and a monitoring list"
+  },
+  "plugin": "lonlat-defi-tokenomics-advisor",
+  "tags": [
+    {
+      "en": "Tokenomics",
+      "zh": "代币经济"
+    },
+    {
+      "en": "DeFi Diligence",
+      "zh": "DeFi尽调"
+    },
+    {
+      "en": "Unlock Risk",
+      "zh": "解锁抛压"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "请对这个协议做Tokenomics尽调，输出机制、解锁抛压、风险与监控清单",
+      "en": "Please diligence this protocol tokenomics and output mechanism, unlock overhang, risks and a monitoring list"
+    },
+    {
+      "zh": "这个池子APR很高，请先画依赖图并指出最可能爆的三点",
+      "en": "This pool APR looks high; draw the dependency graph and name the top three failure points"
+    },
+    {
+      "zh": "请用一页纸对比它和两个同类竞品的价值捕获差异",
+      "en": "Compare its value capture with two peers on one page"
+    }
+  ]
+}

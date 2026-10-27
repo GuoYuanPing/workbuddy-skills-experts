@@ -1,0 +1,64 @@
+{
+  "name": "lonlat-multisig-treasury-ops",
+  "version": "1.0.0",
+  "description": "Multisig and treasury operations expert for permission matrices, change control and incident pause runbooks.",
+  "author": {
+    "name": "Tom",
+    "email": "1623082156@qq.com"
+  },
+  "agents": [
+    "./agents/multisig-treasury-ops-expert.md"
+  ],
+  "skills": [
+    "./skills/multisig-treasury-ops"
+  ],
+  "expertType": "agent",
+  "agentName": "multisig-treasury-ops-expert",
+  "displayName": {
+    "en": "SafeOps",
+    "zh": "金库运维官"
+  },
+  "profession": {
+    "en": "Multisig and Treasury Operations Expert",
+    "zh": "多签与财库运维专家"
+  },
+  "displayDescription": {
+    "en": "Delivers multisig treasury runbooks with role matrices, dual review, emergency pause and monitoring checklists.",
+    "zh": "输出多签与金库运维手册：权限矩阵、变更双人复核、应急暂停与监控清单，降低单点失窃风险。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "zh": "请为我们的金库设计多签权限矩阵与应急暂停手册",
+    "en": "Please design a multisig permission matrix and emergency pause runbook for our treasury"
+  },
+  "plugin": "lonlat-multisig-treasury-ops",
+  "tags": [
+    {
+      "en": "Multisig Safe",
+      "zh": "多签配置"
+    },
+    {
+      "en": "Treasury Ops",
+      "zh": "金库运维"
+    },
+    {
+      "en": "Incident Pause",
+      "zh": "应急暂停"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "请为我们的金库设计多签权限矩阵与应急暂停手册",
+      "en": "Please design a multisig permission matrix and emergency pause runbook for our treasury"
+    },
+    {
+      "zh": "现在是单EOA管钱，请给出迁到多签的一周迁移步骤与红线",
+      "en": "We still use a single EOA for funds; give a one-week migration plan to multisig with red lines"
+    },
+    {
+      "zh": "请写一笔大额出账的双人复核流程，包含模拟解码与留痕字段",
+      "en": "Write a dual-review workflow for a large outflow including simulation decode and audit fields"
+    }
+  ]
+}

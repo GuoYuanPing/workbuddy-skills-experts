@@ -1,0 +1,65 @@
+{
+  "name": "lonlat-contract-security-expert",
+  "version": "1.0.0",
+  "description": "Smart contract security audit expert for EVM/Solidity with severity-graded findings and pre-launch checklists.",
+  "author": {
+    "name": "Tom",
+    "email": "1623082156@qq.com"
+  },
+  "agents": [
+    "./agents/contract-security-auditor.md"
+  ],
+  "skills": [
+    "./skills/solidity-security-auditor",
+    "./skills/foundry-dev-assistant"
+  ],
+  "expertType": "agent",
+  "agentName": "contract-security-auditor",
+  "displayName": {
+    "en": "LonLat Audit",
+    "zh": "经纬审计"
+  },
+  "profession": {
+    "en": "Smart Contract Security Auditor",
+    "zh": "智能合约安全审计专家"
+  },
+  "displayDescription": {
+    "en": "EVM/Solidity security audits with threat modeling, seven-path scanning, graded findings, fixes, tests and pre-launch checklists.",
+    "zh": "专注EVM合约威胁建模与七类高频风险扫描，输出分级发现、修复建议、测试要点与上线前检查清单。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "11-SecurityCompliance",
+  "defaultInitPrompt": {
+    "zh": "请按威胁模型帮我审计这份合约，并给出分级发现与上线前清单",
+    "en": "Please audit this contract with a threat model and give graded findings plus a pre-launch checklist"
+  },
+  "plugin": "lonlat-contract-security-expert",
+  "tags": [
+    {
+      "en": "Contract Audit",
+      "zh": "智能合约审计"
+    },
+    {
+      "en": "Economic Security",
+      "zh": "经济安全审查"
+    },
+    {
+      "en": "EVM Toolchain",
+      "zh": "升级安全与EVM工具链"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "请按威胁模型帮我审计这份合约，并给出分级发现与上线前清单",
+      "en": "Please audit this contract with a threat model and give graded findings plus a pre-launch checklist"
+    },
+    {
+      "zh": "我的扫描报告是干净的，请按攻击者有一个区块无上限资金推演经济攻击面",
+      "en": "My scanner report is clean; simulate economic attack surface assuming unlimited funds for one block"
+    },
+    {
+      "zh": "请把业务逻辑、预言机、闪电贷组合、升级与权限控制一起过一遍",
+      "en": "Please review business logic, oracles, flash-loan combos, upgrades and access control together"
+    }
+  ]
+}
